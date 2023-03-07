@@ -11,3 +11,12 @@ The react function I like is the props and being able to send data from the main
 
 Client side routing isn't anything too big. Anyone using this site gets to Add an item to the array, see it displayed, click the trash can and see it gets deleted, and can edit each specific product. 
 
+The technologies I used were react, react-router-dom, mongoDB, Axios, components, cors and body parser
+
+I don't have any unresolved issues at the moment.
+
+And for future enhancements, I want to make this into a grocery store website with multiple categories to choose from and lists that vary based on the needs of the consumers. 
+
+My biggest challenge was the PUT request. I wasn't able to modify the name for the ID by the standard method. I got help and found out I needed to set a variable equal to an object that consisted of the new object name at the specific index then send it to the backend to be fixed.
+
+My takeaways are that React is similar to just working directly with the back and front ends like the MOD 2 project. But some key differences are there. Components make it easier to send data from parent to child. And it's easier to use HTML and JS in the main folders as well.
