@@ -17,7 +17,7 @@ function App() {
     async function getTodos(){
       let response = await axios({
         method: "GET",
-        url: 'http://localhost:5000/get_items'
+        url: '/get_items'
       })
       console.log(response.data);
       setTodos(response.data);

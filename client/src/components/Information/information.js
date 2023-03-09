@@ -26,7 +26,7 @@ const handleDelete = async (id) => {
     setTodos(listItems);
     let response = await axios({
         method: "Delete",
-        url: `http://localhost:5000/delete/${id}`,
+        url: `/delete/${id}`,
       })
       console.log(response);
       document.location.reload();
@@ -47,7 +47,7 @@ const handleEdit = async (e, id, index) => {
   console.log(editValues[index]);
   let response = await axios({
       method: "Put",
-      url: `http://localhost:5000/update/${id}`,
+      url: `/update/${id}`,
       data: formData
     }) 
      console.log(response);

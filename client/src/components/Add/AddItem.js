@@ -19,7 +19,7 @@ const AddItem = ({todos, setTodos}) => {
     console.log("Submitting")
     let response = await axios({
       method: "POST",
-      url: 'http://localhost:5000/create_item',
+      url: '/create_item',
       data: {item}
     })
     console.log(response);
