@@ -13,7 +13,7 @@ Client side routing isn't anything too big. Anyone using this site gets to Add a
 
 The technologies I used were react, react-router-dom, mongoDB, Axios, components, cors and body parser
 
-I don't have any unresolved issues at the moment.
+The react-router-dom isn't working because I'm using only one page for my CRUD resource. 
 
 And for future enhancements, I want to make this into a grocery store website with multiple categories to choose from and lists that vary based on the needs of the consumers. 
 
