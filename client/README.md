@@ -20,3 +20,5 @@ And for future enhancements, I want to make this into a grocery store website wi
 My biggest challenge was the PUT request. I wasn't able to modify the name for the ID by the standard method. I got help and found out I needed to set a variable equal to an object that consisted of the new object name at the specific index then send it to the backend to be fixed.
 
 My takeaways are that React is similar to just working directly with the back and front ends like the MOD 2 project. But some key differences are there. Components make it easier to send data from parent to child. And it's easier to use HTML and JS in the main folders as well.
+
+I'll finish up the render now
